@@ -25,5 +25,5 @@ async def main():
     # Закрываем браузер
     await browser.close()
 
-# Запускаем асинхронный код
+# Запускаем асинхронный код.
 asyncio.get_event_loop().run_until_complete(main())
